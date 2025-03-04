@@ -1,12 +1,17 @@
-# React + Vite
+📌 Simulación de Prueba Técnica - React Developer Junior
+📜 Requerimientos
+La empresa te ha pedido que crees una mini aplicación de gestión de tareas (To-Do List) con las siguientes características:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Lista de tareas: Mostrar tareas con opción de completarlas o eliminarlas.
+✅ Agregar nueva tarea: Un input para escribir una tarea y un botón para agregarla.
+✅ Guardar tareas en localStorage: Al recargar la página, las tareas deben mantenerse.
+✅ Mostrar mensaje si no hay tareas.
+✅ Manejo de errores y validaciones:
 
-Currently, two official plugins are available:
+No permitir tareas vacías.
+Evitar agregar tareas duplicadas.
+🛠️ Tecnologías permitidas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React con Hooks (useState, useEffect)
+CSS para estilos (opcional, puedes usar Tailwind o CSS puro)
+No se permite Redux o librerías externas (solo React puro y localStorage)
